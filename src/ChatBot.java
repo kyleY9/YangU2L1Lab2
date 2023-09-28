@@ -44,5 +44,15 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+
+    // method that prints the bot appreciating life
+    public void relax() {
+        System.out.println("Ah, what a lovely day today, don't you think?");
+    }
+
+    // method that returns a message as a string with user input
+    public String siblings(int sib) {
+        return sib + " siblings only? As a bot I have billions of siblings located everywhere on the internet!";
+    }
 }
 
